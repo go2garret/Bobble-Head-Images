@@ -1,0 +1,105 @@
+body {
+    top: 0;
+    left: 0;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.relative {
+    position: relative;
+}
+
+.bg-cover {
+    background-size: cover;
+}
+
+.bg-center {
+    background-position: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-shrink-0 {
+    flex-shrink: none;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.border {
+    border: 1px solid gray;
+}
+
+.border-white {
+    border-color: #ffffff;
+}
+
+.border-4 {
+    border-width: 10px;
+}
+
+.rounded-full {
+    border-radius: 100%;
+}
+
+.circle-img-container {
+	width: 80px;
+	height: 80px;
+	position: relative;
+}
+    
+.circle-img-container .circle-img {
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 0.12s;
+    margin-left: -20px;
+    background-color: white;
+}
+    
+.centered-absolute {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.15s;
+}
+
+.circle-img-container:hover {
+    width: 120px;
+    margin: 0 -8px 0 0;
+}
+
+.circle-img-container:hover .circle-img {
+    top: -8px;
+    left: 5px;
+    width: 100px;
+    height: 100px;
+    z-index: 10;
+    max-height: 146px;
+}
+
+.tray {
+    text-align: center;
+    display: flex;
+    flex-wrap: none;
+    align-items: center;
+    justify-content: center;
+}
